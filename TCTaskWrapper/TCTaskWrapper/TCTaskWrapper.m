@@ -24,6 +24,10 @@
 //	IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //	CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
+/**
+ @file TCTaskWrapper.m
+ @brief Abstraction eines NSTask
+ **/
 
 #import "TCTaskWrapper.h"
 
@@ -102,13 +106,20 @@
 }
 
 #pragma mark - Helper
+/**
+ @brief Return the NSData ouput Data from NSTask as NSString
+ @return string, data from NSTask with ASCIIString Encoding
+**/
 - (NSString*)outPutDataToString
 {
     return [[NSString alloc] initWithData:self.outPutData encoding:NSASCIIStringEncoding];
 }
 
 #pragma mark - Private Helper
-
+/**
+ @brief Privtae Method to esay create a NSError
+ @return error, NSError
+**/
 - (NSError*)errorWithCode:(int)code userInfoString:(NSString*)userInfoString
 {
     NSDictionary *userInfoDict = [NSDictionary dictionaryWithObject:userInfoString forKey:NSLocalizedFailureReasonErrorKey];
