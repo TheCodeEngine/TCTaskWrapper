@@ -12,4 +12,11 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+#pragma mark - Syncron Task
+@property (unsafe_unretained) IBOutlet NSTextView *syncronConsole;
+@property (weak) IBOutlet NSTextField *syncronLaunchPathTextField;
+@property (weak) IBOutlet NSTokenField *syncronArguments;
+- (IBAction)syncronRunTaskAction:(id)sender;
+
+
 @end
