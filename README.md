@@ -24,3 +24,7 @@ else
     NSString *outDataString = [task outPutDataToString];
 }
 ```
+
+## License
+
+TCTaskWrapper is is licensed under the [MIT license](http://en.wikipedia.org/wiki/MIT_License). See the LICENSE file in the project root for the full text.
