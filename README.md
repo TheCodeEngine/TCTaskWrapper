@@ -24,6 +24,7 @@ if ( ![task runTaskSyncronError:&taskRUnError] ) {
 }
 else
 {
-    // All normal
+    // Task Exit
+    NSString *outDataString = [task outPutDataToString];
 }
 ```
