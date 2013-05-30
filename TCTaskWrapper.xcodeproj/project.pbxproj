@@ -17,6 +17,7 @@
 		DAD57D391757464E0008A41A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD57D191757464D0008A41A /* Cocoa.framework */; };
 		DAD57D411757464E0008A41A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD57D3F1757464E0008A41A /* InfoPlist.strings */; };
 		DAD57D441757464E0008A41A /* TCTaskWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD57D431757464E0008A41A /* TCTaskWrapperTests.m */; };
+		DAD57D50175746940008A41A /* TCTaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD57D4F175746940008A41A /* TCTaskWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		DAD57D401757464E0008A41A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAD57D421757464E0008A41A /* TCTaskWrapperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTaskWrapperTests.h; sourceTree = "<group>"; };
 		DAD57D431757464E0008A41A /* TCTaskWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTaskWrapperTests.m; sourceTree = "<group>"; };
+		DAD57D4E175746940008A41A /* TCTaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCTaskWrapper.h; path = TCTaskWrapper/TCTaskWrapper.h; sourceTree = "<group>"; };
+		DAD57D4F175746940008A41A /* TCTaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCTaskWrapper.m; path = TCTaskWrapper/TCTaskWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		DAD57D1F1757464D0008A41A /* TCTaskWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				DAD57D4D175746810008A41A /* TCTaskWrapper */,
 				DAD57D2B1757464D0008A41A /* AppDelegate.h */,
 				DAD57D2C1757464D0008A41A /* AppDelegate.m */,
 				DAD57D2E1757464D0008A41A /* MainMenu.xib */,
@@ -151,6 +155,15 @@
 				DAD57D3F1757464E0008A41A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD57D4D175746810008A41A /* TCTaskWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D4E175746940008A41A /* TCTaskWrapper.h */,
+				DAD57D4F175746940008A41A /* TCTaskWrapper.m */,
+			);
+			name = TCTaskWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			files = (
 				DAD57D261757464D0008A41A /* main.m in Sources */,
 				DAD57D2D1757464D0008A41A /* AppDelegate.m in Sources */,
+				DAD57D50175746940008A41A /* TCTaskWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +466,7 @@
 				DAD57D491757464E0008A41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAD57D4A1757464E0008A41A /* Build configuration list for PBXNativeTarget "TCTaskWrapperTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +475,7 @@
 				DAD57D4C1757464E0008A41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
