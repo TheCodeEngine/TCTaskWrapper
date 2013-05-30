@@ -14,7 +14,7 @@ git submodule init
 To run a syncron Task
 ```objective-c
 NSError *taskRUnError;
-TCTaskWrapper *task = [[TCTaskWrapper alloc] initWithTaskPath:@"/bin/ls" arguments:@[@"l"]];
+TCTaskWrapper *task = [[TCTaskWrapper alloc] initWithTaskPath:[NSURL URLWithString:@"/bin/ls"] arguments:@[@"l"]];
 if ( ![task runTaskSyncronError:&taskRUnError] ) {
     // Task has Error
 }
