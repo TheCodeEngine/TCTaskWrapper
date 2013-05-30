@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD57D1A1757464D0008A41A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD57D191757464D0008A41A /* Cocoa.framework */; };
+		DAD57D241757464D0008A41A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD57D221757464D0008A41A /* InfoPlist.strings */; };
+		DAD57D261757464D0008A41A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD57D251757464D0008A41A /* main.m */; };
+		DAD57D2A1757464D0008A41A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DAD57D281757464D0008A41A /* Credits.rtf */; };
+		DAD57D2D1757464D0008A41A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD57D2C1757464D0008A41A /* AppDelegate.m */; };
+		DAD57D301757464D0008A41A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAD57D2E1757464D0008A41A /* MainMenu.xib */; };
+		DAD57D381757464E0008A41A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD57D371757464E0008A41A /* SenTestingKit.framework */; };
+		DAD57D391757464E0008A41A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD57D191757464D0008A41A /* Cocoa.framework */; };
+		DAD57D411757464E0008A41A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD57D3F1757464E0008A41A /* InfoPlist.strings */; };
+		DAD57D441757464E0008A41A /* TCTaskWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD57D431757464E0008A41A /* TCTaskWrapperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD57D3A1757464E0008A41A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD57D0E1757464D0008A41A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD57D151757464D0008A41A;
+			remoteInfo = TCTaskWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD57D161757464D0008A41A /* TCTaskWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCTaskWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD57D191757464D0008A41A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DAD57D1C1757464D0008A41A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DAD57D1D1757464D0008A41A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DAD57D1E1757464D0008A41A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAD57D211757464D0008A41A /* TCTaskWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCTaskWrapper-Info.plist"; sourceTree = "<group>"; };
+		DAD57D231757464D0008A41A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAD57D251757464D0008A41A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD57D271757464D0008A41A /* TCTaskWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCTaskWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		DAD57D291757464D0008A41A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DAD57D2B1757464D0008A41A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAD57D2C1757464D0008A41A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAD57D2F1757464D0008A41A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DAD57D361757464E0008A41A /* TCTaskWrapperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCTaskWrapperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD57D371757464E0008A41A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DAD57D3E1757464E0008A41A /* TCTaskWrapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCTaskWrapperTests-Info.plist"; sourceTree = "<group>"; };
+		DAD57D401757464E0008A41A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAD57D421757464E0008A41A /* TCTaskWrapperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTaskWrapperTests.h; sourceTree = "<group>"; };
+		DAD57D431757464E0008A41A /* TCTaskWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTaskWrapperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD57D131757464D0008A41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD57D1A1757464D0008A41A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD57D321757464E0008A41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD57D381757464E0008A41A /* SenTestingKit.framework in Frameworks */,
+				DAD57D391757464E0008A41A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD57D0D1757464D0008A41A = {
+			isa = PBXGroup;
+			children = (
+				DAD57D1F1757464D0008A41A /* TCTaskWrapper */,
+				DAD57D3C1757464E0008A41A /* TCTaskWrapperTests */,
+				DAD57D181757464D0008A41A /* Frameworks */,
+				DAD57D171757464D0008A41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD57D171757464D0008A41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D161757464D0008A41A /* TCTaskWrapper.app */,
+				DAD57D361757464E0008A41A /* TCTaskWrapperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD57D181757464D0008A41A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D191757464D0008A41A /* Cocoa.framework */,
+				DAD57D371757464E0008A41A /* SenTestingKit.framework */,
+				DAD57D1B1757464D0008A41A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD57D1B1757464D0008A41A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D1C1757464D0008A41A /* AppKit.framework */,
+				DAD57D1D1757464D0008A41A /* CoreData.framework */,
+				DAD57D1E1757464D0008A41A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DAD57D1F1757464D0008A41A /* TCTaskWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D2B1757464D0008A41A /* AppDelegate.h */,
+				DAD57D2C1757464D0008A41A /* AppDelegate.m */,
+				DAD57D2E1757464D0008A41A /* MainMenu.xib */,
+				DAD57D201757464D0008A41A /* Supporting Files */,
+			);
+			path = TCTaskWrapper;
+			sourceTree = "<group>";
+		};
+		DAD57D201757464D0008A41A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D211757464D0008A41A /* TCTaskWrapper-Info.plist */,
+				DAD57D221757464D0008A41A /* InfoPlist.strings */,
+				DAD57D251757464D0008A41A /* main.m */,
+				DAD57D271757464D0008A41A /* TCTaskWrapper-Prefix.pch */,
+				DAD57D281757464D0008A41A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD57D3C1757464E0008A41A /* TCTaskWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D421757464E0008A41A /* TCTaskWrapperTests.h */,
+				DAD57D431757464E0008A41A /* TCTaskWrapperTests.m */,
+				DAD57D3D1757464E0008A41A /* Supporting Files */,
+			);
+			path = TCTaskWrapperTests;
+			sourceTree = "<group>";
+		};
+		DAD57D3D1757464E0008A41A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD57D3E1757464E0008A41A /* TCTaskWrapperTests-Info.plist */,
+				DAD57D3F1757464E0008A41A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD57D151757464D0008A41A /* TCTaskWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD57D471757464E0008A41A /* Build configuration list for PBXNativeTarget "TCTaskWrapper" */;
+			buildPhases = (
+				DAD57D121757464D0008A41A /* Sources */,
+				DAD57D131757464D0008A41A /* Frameworks */,
+				DAD57D141757464D0008A41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCTaskWrapper;
+			productName = TCTaskWrapper;
+			productReference = DAD57D161757464D0008A41A /* TCTaskWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD57D351757464E0008A41A /* TCTaskWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD57D4A1757464E0008A41A /* Build configuration list for PBXNativeTarget "TCTaskWrapperTests" */;
+			buildPhases = (
+				DAD57D311757464E0008A41A /* Sources */,
+				DAD57D321757464E0008A41A /* Frameworks */,
+				DAD57D331757464E0008A41A /* Resources */,
+				DAD57D341757464E0008A41A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD57D3B1757464E0008A41A /* PBXTargetDependency */,
+			);
+			name = TCTaskWrapperTests;
+			productName = TCTaskWrapperTests;
+			productReference = DAD57D361757464E0008A41A /* TCTaskWrapperTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD57D0E1757464D0008A41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TheCodeEngine;
+			};
+			buildConfigurationList = DAD57D111757464D0008A41A /* Build configuration list for PBXProject "TCTaskWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAD57D0D1757464D0008A41A;
+			productRefGroup = DAD57D171757464D0008A41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD57D151757464D0008A41A /* TCTaskWrapper */,
+				DAD57D351757464E0008A41A /* TCTaskWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD57D141757464D0008A41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD57D241757464D0008A41A /* InfoPlist.strings in Resources */,
+				DAD57D2A1757464D0008A41A /* Credits.rtf in Resources */,
+				DAD57D301757464D0008A41A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD57D331757464E0008A41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD57D411757464E0008A41A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAD57D341757464E0008A41A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD57D121757464D0008A41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD57D261757464D0008A41A /* main.m in Sources */,
+				DAD57D2D1757464D0008A41A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD57D311757464E0008A41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD57D441757464E0008A41A /* TCTaskWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD57D3B1757464E0008A41A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD57D151757464D0008A41A /* TCTaskWrapper */;
+			targetProxy = DAD57D3A1757464E0008A41A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD57D221757464D0008A41A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD57D231757464D0008A41A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAD57D281757464D0008A41A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD57D291757464D0008A41A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DAD57D2E1757464D0008A41A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD57D2F1757464D0008A41A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DAD57D3F1757464E0008A41A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD57D401757464E0008A41A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD57D451757464E0008A41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DAD57D461757464E0008A41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAD57D481757464E0008A41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCTaskWrapper/TCTaskWrapper-Prefix.pch";
+				INFOPLIST_FILE = "TCTaskWrapper/TCTaskWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAD57D491757464E0008A41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCTaskWrapper/TCTaskWrapper-Prefix.pch";
+				INFOPLIST_FILE = "TCTaskWrapper/TCTaskWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DAD57D4B1757464E0008A41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TCTaskWrapper.app/Contents/MacOS/TCTaskWrapper";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCTaskWrapper/TCTaskWrapper-Prefix.pch";
+				INFOPLIST_FILE = "TCTaskWrapperTests/TCTaskWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DAD57D4C1757464E0008A41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TCTaskWrapper.app/Contents/MacOS/TCTaskWrapper";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCTaskWrapper/TCTaskWrapper-Prefix.pch";
+				INFOPLIST_FILE = "TCTaskWrapperTests/TCTaskWrapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD57D111757464D0008A41A /* Build configuration list for PBXProject "TCTaskWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD57D451757464E0008A41A /* Debug */,
+				DAD57D461757464E0008A41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD57D471757464E0008A41A /* Build configuration list for PBXNativeTarget "TCTaskWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD57D481757464E0008A41A /* Debug */,
+				DAD57D491757464E0008A41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD57D4A1757464E0008A41A /* Build configuration list for PBXNativeTarget "TCTaskWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD57D4B1757464E0008A41A /* Debug */,
+				DAD57D4C1757464E0008A41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD57D0E1757464D0008A41A /* Project object */;
+}
