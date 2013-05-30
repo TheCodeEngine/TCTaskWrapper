@@ -62,7 +62,7 @@
         int statusTask = [task terminationStatus];
         if ( statusTask != 0 )
         {
-            *error = [self errorWithCode:101 userInfoString:@"Task Fail"];
+            *error = [self errorWithCode:101 userInfoString:@"Task exit status not 0"];
             return NO;
         }
         

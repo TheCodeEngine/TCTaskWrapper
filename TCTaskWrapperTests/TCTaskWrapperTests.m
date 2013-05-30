@@ -12,6 +12,7 @@
 
 @implementation TCTaskWrapperTests
 
+/*
 - (void)setUp
 {
     [super setUp];
@@ -25,11 +26,7 @@
     
     [super tearDown];
 }
-
-- (void)testExample
-{
-    //STFail(@"Unit tests are not implemented yet in TCTaskWrapperTests");
-}
+*/
 
 #pragma mark - Syncron Task
 
